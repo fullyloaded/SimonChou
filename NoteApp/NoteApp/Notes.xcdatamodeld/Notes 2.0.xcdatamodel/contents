@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="Iphone" syncable="YES">
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MAC" syncable="YES"/>
+    <entity name="Note" representedClassName="Note" syncable="YES">
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Notebook" representedClassName="Notebook" syncable="YES">
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Iphone" positionX="-36" positionY="27" width="128" height="60"/>
+        <element name="Note" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Notebook" positionX="-54" positionY="9" width="128" height="75"/>
+        <element name="MAC" positionX="-45" positionY="9" width="128" height="45"/>
+    </elements>
+</model>
